@@ -39,7 +39,7 @@ local PageSection1 = Page:Section({
 
 
 local Button1 = PageSection1:Button({
-    Name = "Button", -- name, Name, title, Title
+    Name = "Inf Stam", -- name, Name, title, Title
     callback = function()
         local stam = game:GetService("Players").LocalPlayer.PlayerStats.Stamina
 
